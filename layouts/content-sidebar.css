@@ -3,11 +3,6 @@ Theme Name: community
 Layout: Content-Sidebar
 */
 
-
-.site-main {
-
-}
-
 .site-footer {
 	clear: both;
 	width: 100%;
@@ -26,9 +21,7 @@ Layout: Content-Sidebar
 
 .post-navigation {
 	padding-bottom: 40px;
-	}
-
-
+}
 
 @media screen and (min-width: 1160px) {
 	.content-area {
@@ -37,9 +30,6 @@ Layout: Content-Sidebar
 		margin-left: -380px;
 		padding-left: 380px;
 	}
-
-	
-
 }
 
 @media screen and (max-width: 1159px) {
@@ -54,5 +44,4 @@ Layout: Content-Sidebar
 		margin: 0 auto;
 		width: auto;
 	}
-
 }
