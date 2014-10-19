@@ -87,8 +87,8 @@ body {
 }
 
 #wrapper {
-	width: 1160px;
-	margin: 0 auto 0 auto;
+	margin: 0 auto;
+	max-width: 1160px;
 }
 
 article,
@@ -848,14 +848,10 @@ X.X Header
 
 .site-content .widget-area {
 	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
-	margin-top: 20px;
-	width: 380px;
-	float: right;
 	padding: 4rem;
 	color: grey;
 	background-color: #fff;
 	font-size: 13px;
-
 }
 
 
@@ -867,7 +863,6 @@ X.X Header
 	font-weight: 600;
 	color: grey;
 	border-bottom: 2px solid #ccc;
-
 } 
 
 .widget ul,

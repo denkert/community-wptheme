@@ -23,25 +23,31 @@ Layout: Content-Sidebar
 	padding-bottom: 40px;
 }
 
-@media screen and (min-width: 1160px) {
+.site-content .widget-area {
+	display: block;
+	margin: 20px auto 0 auto;
+}
+
+.content-area {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 800px) {
 	.content-area {
-		width: 100%;
+		/*width: 100%;*/
 		float: left;
-		margin-left: -380px;
-		padding-left: 380px;
+		max-width: 100%;
+		margin-left: -400px;
+		padding-left: 400px;
+		margin-right: 20px;
 	}
-}
 
-@media screen and (max-width: 1159px) {
 	.site-content .widget-area {
-		width: auto;
-		max-width: 780px;
-		float: none;
-		margin: 0 auto ; 
-
-	}
-	#wrapper {
-		margin: 0 auto;
-		width: auto;
+		max-width: 380px;
+		float: left;
+		margin: inherit 0;
 	}
 }
+
+	
