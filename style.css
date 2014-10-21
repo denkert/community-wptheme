@@ -937,7 +937,8 @@ X.X Header
 10.1 Posts and pages
 --------------------------------------------------------------*/
 
-.post {
+
+.wrapper-post {
 	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 	background-color: white;
 }
