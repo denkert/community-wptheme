@@ -43,6 +43,10 @@ and Blueprint http://www.blueprintcss.org/
 12.0 Media
 	12.1 Captions
 	12.2 Galleries
+13.0 Footer
+14.0 Specific pages
+	14.1 page-homepage
+
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -185,7 +189,6 @@ h6 {
 
 
 p {
-	margin-bottom: 1.5em;
 }
 
 b,
@@ -917,8 +920,12 @@ X.X Header
 
 .footer-widgets .widget {
     width: 300px;
-	margin-bottom: 2rem;
 }
+
+.footer-widgets .widget-title {
+	color: white;
+}
+
                 
 /* Make sure select elements fit in widgets */
 .widget select {
@@ -1029,6 +1036,9 @@ X.X Header
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
+}
+
+.content-area {
 }
 
 /*--------------------------------------------------------------
@@ -1159,14 +1169,13 @@ object {
 13.0 Footer
 --------------------------------------------------------------*/
 
-
 .site-footer {
 	box-shadow: 0px 0 3px rgba(0, 0, 0, 0.2);
 	margin-top: 20px;
 	padding: 2em;
 	font-size: 12px;
-	color: #aaa;
-	background-color: #fff;
+	color: #fff;
+	background-color: #565656;
 
 }
 
@@ -1174,3 +1183,33 @@ object {
 	margin-top: 2em;
 	text-align: center;
 }
+
+/*--------------------------------------------------------------
+14.0 Specific pages
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+14.1 page-homepage and page-posts (blog)
+--------------------------------------------------------------*/
+
+.page-homepage .content-area,
+.page-posts .content-area {
+	max-width: 800px;
+}
+
+@media screen and (min-width: 800px) {
+	.page-homepage .content-area,
+	.page-posts .content-area {
+		float: left;
+		max-width: 100%;
+		margin-left: -400px;
+		padding-left: 400px;
+		margin-right: 20px;
+	}
+
+	.widget-area {
+		width: 380px;
+		float: left;
+		margin: inherit 0;
+	}
+}
+

@@ -15,6 +15,9 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		
 		<?php get_sidebar('footer'); ?>
+
+		<div class="clear"></div>
+		
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'community' ) ); ?>"><?php printf( __( 'Copyright: %s', 'community' ), 'The Community 2014' ); ?></a>
 			<span class="sep"> | </span>

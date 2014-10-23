@@ -5,19 +5,21 @@ Layout: Content-Sidebar
 
 .site-footer {
 	clear: both;
-	width: 100%;
-}
+ }
 
-.entry-content,
-.entry-header
+.entry-content
 {
 	position: relative;
 	max-width: 780px;
-	padding-left: 40px;
-	padding-top: 40px;
-	padding-right: 30px;
+	padding: 20px 40px 30px 40px;
 	margin: 0 auto;
 }
+
+.entry-header {
+	padding: 40px 40px 0px 40px;
+
+}
+
 
 .post-navigation {
 	padding-bottom: 40px;
@@ -28,14 +30,9 @@ Layout: Content-Sidebar
 	margin: 20px auto 0 auto;
 }
 
-.content-area {
-	max-width: 600px;
-	margin: 0 auto;
-}
 
-@media screen and (min-width: 800px) {
+/*@media screen and (min-width: 800px) {
 	.content-area {
-		/*width: 100%;*/
 		float: left;
 		max-width: 100%;
 		margin-left: -400px;
@@ -48,6 +45,6 @@ Layout: Content-Sidebar
 		float: left;
 		margin: inherit 0;
 	}
-}
+}*/
 
 	
