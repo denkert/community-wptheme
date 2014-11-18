@@ -10,7 +10,6 @@ Layout: Content-Sidebar
 .entry-content
 {
 	position: relative;
-	max-width: 780px;
 	padding: 20px 40px 30px 40px;
 	margin: 0 auto;
 }

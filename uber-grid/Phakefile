@@ -1,0 +1,3 @@
+<?php
+define('CURRENT_PLUGIN_FILE', __DIR__ . "/uber-grid.php");
+require($_SERVER['HOME'] . "/lib/wp-plugin-phakefile.php");
