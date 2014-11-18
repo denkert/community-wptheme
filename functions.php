@@ -105,7 +105,8 @@ add_action( 'widgets_init', 'community_widgets_init' );
  */
 function community_scripts() {
 
-	wp_enqueue_style('community-style', get_stylesheet_uri() );
+	// wp_enqueue_style('community-style', get_stylesheet_uri() );
+	wp_enqueue_style('community-style', get_template_directory_uri() . '/assets/css/main.css');
 
 	wp_enqueue_style('community-google-fonts', 'http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Great+Vibes:400');
 
