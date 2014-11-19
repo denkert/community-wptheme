@@ -1,0 +1,189 @@
+/* 5.2 Menus */
+
+#nav-wrapper
+  max-width: 1160px
+  margin: 0 auto
+
+.main-navigation
+  box-shadow: 0px 0 3px rgba(0, 0, 0, 0.2)
+  width: 100%
+  clear: both
+  display: block
+  float: left
+  text-transform: uppercase
+  background-color: #fff
+  position: relative
+
+  ul
+    list-style: none
+    margin: 0
+    padding-left: 0
+
+  li
+    float: left
+    position: relative
+
+  a
+    display: block
+    padding: 1em 1em
+    font-size: 1.2rem
+    font-size: 12px
+    font-weight: 600
+    text-decoration: none
+    line-height: 1em
+    color: #aaa
+
+  a:hover
+    color: black
+
+  ul ul
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1)
+    line-height: 1.5em
+    float: left
+    background-color: white
+    position: absolute
+    left: -999em
+    z-index: 99999
+
+    ul
+      left: -999em
+      top: 0
+    a
+      width: 200px
+
+  ul
+    ul
+      \:hover! > a, a:hover!
+
+    li:hover > ul
+      left: auto
+
+  .current_page_item > a, .current-menu-item > a, .current_page_item > a:hover, .current-menu-item > a:hover
+    color: black
+
+
+/* Small menu */
+
+.menu-toggle
+  display: none
+
+button
+  border: none
+  box-shadow: none
+  background-color: white
+
+@media screen and (max-width: 600px)
+  .menu-toggle
+    display: block
+    padding: 1em 1em
+    font-size: 1.2rem
+    font-size: 12px
+    font-weight: 600
+    text-decoration: none
+    line-height: 1em
+    text-transform: uppercase
+    color: #aaa
+
+  .main-navigation.toggled .nav-menu
+    display: block
+    border-top: 1px solid #eee
+  .nav-menu
+    display: none
+    padding-left: 0
+    li
+      float: none
+  .main-navigation
+    li
+      a
+        padding: 1em 1em
+      li
+        a
+          padding-left: 4em
+        li a
+          padding-left: 6em
+    ul
+      ul
+        box-shadow: none
+        top: inherit
+        position: relative
+        left: 0
+        display: block
+        float: none
+        ul
+          box-shadow: none
+          top: inherit
+          position: relative
+          left: 0
+          display: block
+          float: none
+        li:hover > ul
+          left: auto
+      a:hover!, ul! a:hover .main-navigation ul ul ul a:hover
+
+.site-main
+  .comment-navigation, .paging-navigation, .post-navigation
+    margin: 0 0 1.5em
+    overflow: hidden
+
+.comment-navigation .nav-previous, .paging-navigation .nav-previous, .post-navigation .nav-previous
+  float: left
+  width: 50%
+
+.comment-navigation .nav-next, .paging-navigation .nav-next, .post-navigation .nav-next
+  float: right
+  text-align: right
+  width: 50%
+
+/* Social Menu */
+
+.screen-reader-text
+  position: absolute
+  top: -9999em
+  left: -9999em
+
+
+.menu-social
+  position: absolute
+  top: 0
+  right: 0
+  ul
+    float: right
+    text-align: center
+    list-style: none
+    li
+      position: relative
+      display: inline-block
+  li a
+    &:before
+      display: block
+      vertical-align: top
+      font-family: 'Fontawesome'
+      font-size: 20px
+      -webkit-font-smoothing: antialiased
+      content: '\f0c0'
+    &:hover
+      color: black
+    &[href*="facebook.com"]::before
+      content: '\f09a'
+    &[href*="twitter.com"]::before
+      content: '\f099'
+    &[href*="dribbble.com"]::before
+      content: '\f17d'
+    &[href*="plus.google.com"]::before
+      content: '\f0d5'
+    &[href*="pinterest.com"]::before
+      content: '\f0d2'
+    &[href*="github.com"]::before
+      content: '\f09b'
+    &[href*="tumblr.com"]::before
+      content: '\f173'
+    &[href*="youtube.com"]::before
+      content: '\f167'
+    &[href*="flickr.com"]::before
+      content: '\f16e'
+    &[href*="vimeo.com"]::before
+      content: '\f194'
+    &[href*="instagram.com"]::before
+      content: '\f16d'
+    &[href*="linkedin.com"]::before
+      content: '\f0e1'

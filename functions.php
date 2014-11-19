@@ -112,7 +112,7 @@ function community_scripts() {
 
 	wp_enqueue_style('community-fontawesome', 'http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
 
-	wp_enqueue_style( 'community-style-content-siderbar', get_template_directory_uri() . '/layouts/content-sidebar.css' );
+	// wp_enqueue_style( 'community-style-content-siderbar', get_template_directory_uri() . '/layouts/content-sidebar.css');
 
 	wp_enqueue_script( 'community-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), '20120206', true );
 
