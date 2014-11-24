@@ -3,13 +3,25 @@
 
 // Vendor
 @import "vendor/normalize"
+@import "vendor/bourbon/bourbon"
+@import "vendor/grid-settings"
+@import "vendor/neat/neat"
+@import "vendor/forms"
+
+// Helpers
+@import "helpers/clearfix"
+@import "helpers/variables"
 
 // Base
 @import "base/typography"
+@import "base/global"
+
 
 //layout
 
-@import "layouts/header"
-@import "layouts/navigation"
-@import "layouts/content"
-@import "layouts/content-sidebar"
+@import "components/header"
+@import "components/navigation"
+@import "components/posts"
+@import "components/content-sidebar"
+@import "components/footer"
+@import "components/widgets"

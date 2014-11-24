@@ -21,23 +21,20 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="hfeed site">
-	<header id="masthead" class="site-header" role="banner">
-		
-			<div class="site-branding">
-				<div class="title-image">
+	<div id="page" class="hfeed site grid-container">
+		<header id="masthead" class="site-header" role="banner">
+			
+				<div class="site-branding">
+					<div class="title-image">
+					</div>
 				</div>
-			</div>
-		
-		<div id="nav-wrapper">
-			<nav id="site-navigation" class="main-navigation" role="navigation">
-				<button class="menu-toggle"><?php _e( 'Menu', 'community' ); ?></button>
-				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-				<?php community_social_menu(); ?>
-			</nav>
-		</div><!-- #site-navigation -->
+			
+				<nav id="site-navigation" class="main-navigation" role="navigation">
+					<button class="menu-toggle"><?php _e( 'Menu', 'community' ); ?></button>
+					<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+					<?php community_social_menu(); ?>
+				</nav>
+			<div class="clear"></div>
 
-
-	</header><!-- #masthead -->
-		<div id="wrapper">
-	 		<div id="content" class="site-content">
+		</header><!-- #masthead -->
+		 		<div id="content" class="site-content">

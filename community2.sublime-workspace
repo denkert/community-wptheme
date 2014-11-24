@@ -1,0 +1,499 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"upper",
+				"upper-alpha"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"inln",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"backgroun",
+				"background-size"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"sa",
+				"sans-serif"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"backgrond",
+				"background-size"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"head",
+				"headerNY"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"block",
+				"inline-block"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"Sans",
+				"sans-serif"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"text-",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"reve",
+				"File: Reveal"
+			],
+			[
+				"sssass",
+				"Set Syntax: Sass"
+			],
+			[
+				"rea",
+				"File: Rename"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"packalist",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"Pack",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"pac",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"packins",
+				"Package Control: Install Package"
+			],
+			[
+				"ssh",
+				"Set Syntax: Handlebars"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 284.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/community-2"
+	],
+	"file_history":
+	[
+		"/Users/Elli-iMac/Dropbox/Hemsida2014/sass/layouts/_header.sass",
+		"/Users/Elli-iMac/Dropbox/Hemsida2014/index.html",
+		"/Users/Elli-iMac/Dropbox/Hemsida2014/sass/helpers/_variables.sass",
+		"/Users/Elli-iMac/Dropbox/Hemsida2014/sass/layouts/_navigation.sass",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/community-2/index.php",
+		"/Users/Elli-iMac/Dropbox/Hemsida2014/sass/base/_typography.sass",
+		"/Users/Elli-iMac/Dropbox/Hemsida2014/sass/base/_body.sass",
+		"/Users/Elli-iMac/Dropbox/Hemsida2014/sass/layouts/_content.sass",
+		"/Users/Elli-iMac/Dropbox/Hemsida2014/sass/main.sass",
+		"/Users/Elli-iMac/Dropbox/Hemsida2014/sass/helpers/_clearfix.sass",
+		"/Users/Elli-iMac/Dropbox/Hemsida2014/css/main.css",
+		"/Users/Elli-iMac/Dropbox/Hemsida2014/sass/layouts/_footer.sass",
+		"/Users/Elli-iMac/Downloads/initializr/index.html",
+		"/Users/Elli-iMac/Dropbox/Hemsida2014/sass/base/_normalize.scss",
+		"/Users/Elli-iMac/Dropbox/Hemsida2014/css/main.css.map",
+		"/Users/Elli-iMac/Dropbox/Hemsida2014/sass/base/_reset.sass",
+		"/Users/Elli-iMac/Downloads/html5-boilerplate-4.3.0/index.html",
+		"/Users/Elli-iMac/Dropbox/Hemsida2014/sass/_profession.sass",
+		"/Users/Elli-iMac/Dropbox/Hemsida2014/hemsida2014.sublime-project",
+		"/Users/Elli-iMac/Dropbox/Hemsida2014/.sass-cache/d1b70dedea64d7d4b98f0c2247541fe9ac1eddc8/main.scssc",
+		"/Users/Elli-iMac/Dropbox/Hemsida2014/.sass-cache/d1b70dedea64d7d4b98f0c2247541fe9ac1eddc8/main.sassc",
+		"/Users/Elli-iMac/Dropbox/Hemsida2014/sass/main.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/community-2/style.css",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/community-2/style.scss.css",
+		"/Users/Elli-iMac/Dropbox/Hemsida2014/style.scss",
+		"/Users/Elli-iMac/Dropbox/Hemsida2014/style.css",
+		"/Users/Elli-iMac/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/Elli-iMac/Dropbox/Hemsida 2014/styles.css",
+		"/Users/Elli-iMac/Dropbox/Hemsida 2014/gallery.html",
+		"/Users/Elli-iMac/Dropbox/Hemsida 2014/contact.html",
+		"/Users/Elli-iMac/Dropbox/Hemsida 2014/about.html",
+		"/Users/Elli-iMac/Dropbox/Hemsida 2014/index.html",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/community-2/layouts/content-sidebar.css",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/community-2/sidebar-footer.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/community-2/footer.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/community-2/sidbar-footer.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/community-2/header.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/community-2/page_home.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/community-2/content-page.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/community-2/inc/template-tags.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/community-2/functions.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/community/style.css",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/communitytheme/style.css",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/communitytheme/comments.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/communitytheme/index.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/communitytheme/footer.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/communitytheme/rtl.css",
+		"/Users/Elli-iMac/Dropbox/Denkert2014/index.html",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/anew-child/style.css",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/anew-child/custom.css",
+		"/Users/Elli-iMac/Sims Uncut/ghost-0.5.0/content/themes/casper/about.hbs",
+		"/Users/Elli-iMac/Sims Uncut/ghost-0.5.0/content/themes/casper/contact.hbs",
+		"/Users/Elli-iMac/Downloads/white-fogg-ghost-theme-master-package/README.md",
+		"/Users/Elli-iMac/Downloads/white-fogg-ghost-theme-master-package/index.hbs",
+		"/index.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"10.0",
+			"13.0",
+			"footer",
+			".entry-content",
+			"media",
+			"widget",
+			"\"site-content\"",
+			"\"wrapper\"",
+			"#masthead",
+			"wrapper-post",
+			".content-area",
+			"10.0",
+			"content",
+			"content-area",
+			"content-are",
+			"content-area",
+			".widget-area",
+			"comment",
+			"10.1",
+			"10.3",
+			"widget",
+			"10.0",
+			"@",
+			".media",
+			"10.",
+			"content",
+			"entry",
+			"entry-meta",
+			"widgets",
+			"9",
+			"13",
+			"9.0",
+			"5.1",
+			"5.2",
+			"site-title",
+			"header",
+			"site-header",
+			"title",
+			"site-title",
+			"header",
+			"masthead",
+			"main-menu",
+			"main-nav overlay clearfix",
+			"before",
+			"mani-nav overlay",
+			"::before",
+			"body",
+			"post",
+			"font-family",
+			"noto",
+			"h1",
+			"post-title",
+			"pagination",
+			"background",
+			"post-meta",
+			"font-family",
+			"font-color",
+			"font-family",
+			"post-title",
+			"font-family",
+			"icon-feed",
+			"footer",
+			"nav",
+			"main",
+			"content",
+			"main-content",
+			"content",
+			"header"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "community2.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"main",
+				"sass/main.sass"
+			],
+			[
+				"typo",
+				"sass/base/_typography.sass"
+			],
+			[
+				"mainsass",
+				"sass/main.sass"
+			],
+			[
+				"mainma",
+				"css/main.css.map"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"foot",
+				"footer.php"
+			],
+			[
+				"head",
+				"header.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 176.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

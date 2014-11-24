@@ -1,11 +1,11 @@
 <?php
  /*
- Template Name: Home-page
+ Template Name: Contact-page
  */
  ?>
 
 <?php get_header(); ?>
-	<div class="page-homepage">
+	<div class="page-contact">
 		<div id="primary" class="content-area">
 			<main id="main" class="site-main" role="main">
 
@@ -17,9 +17,7 @@
 
 			</main><!-- #main -->
 		</div><!-- #primary -->
-		<?php get_sidebar(); ?>
 		<div class="clear"></div>
-	</div> <!-- .page-homepage -->
-
+	</div> <!-- .page-contact -->
 
 <?php get_footer(); ?>

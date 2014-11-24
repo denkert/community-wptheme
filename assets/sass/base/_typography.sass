@@ -1,17 +1,33 @@
 body
-  font-size: 100%
-  font-family: 'Lato', sans-serif
+  font-size: 62.5%
+  font-family: 'Source Sans Pro', sans-serif
   color: #404040
   line-height: 1.5
-  background-color: #eee
 
 h1
-  clear: right
-  font-weight: 300
-  font-size: 2.5rem
+  font-weight: 200
+  font-size: 3rem
 
-h2, h3, h4, h5, h6
-  clear: right
+h2
+  font-weight: 100
+  font-size: 2em
+
+h4
+  font-weight: 800
+  font-size: 1.3rem
+
+p 
+  font-weight: 400
+  font-size: 0.9rem
+  a
+    font-weight: 600
+
+a 
+  color: $mediumGrey
+  text-decoration: none
+  
+a:hover
+  color: $black
 
 b, strong
   font-weight: bold
@@ -20,70 +36,9 @@ dfn, cite, em, i
   font-style: italic
 
 blockquote
-  margin: 0 1.5em
-
-.widget-title
-  text-transform: uppercase
-  font-size: 14px
-  font-weight: 600
-  color: grey
-
-.widget
-  li
-    a
-      font-size: 1.5rem
-      font-size: 15px
-      font-weight: 400
-      color: grey
-      text-decoration: none
-    a:hover
-      color: black
+  padding: 0 1.5em
+  p
+    font-size: 1.3rem
+    font-weight: 300
 
 
-// TODO
-// Candidates for deprecation
-address
-  margin: 0 0 1.5em
-
-pre
-  background: #eee
-  font-family: "Courier 10 Pitch", Courier, monospace
-  font-size: 15px
-  font-size: 1.5rem
-  line-height: 1.6
-  margin-bottom: 1.6em
-  max-width: 100%
-  overflow: auto
-  padding: 1.6em
-
-code, kbd, tt, var
-  font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace
-
-abbr, acronym
-  border-bottom: 1px dotted #666
-  cursor: help
-
-mark, ins
-  background: #fff9c0
-  text-decoration: none
-
-sup, sub
-  font-size: 75%
-  height: 0
-  line-height: 0
-  position: relative
-  vertical-align: baseline
-
-sup
-  bottom: 1ex
-
-sub
-  top: .5ex
-
-small
-  font-size: 75%
-
-big
-  font-size: 125%
-
-// /CANDIDATES

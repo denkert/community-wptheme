@@ -1,0 +1,25 @@
+/*
+ *Theme Name: community
+ *Layout: Content-Sidebar */
+
+.page-sidebar,
+.page-posts 
+
+    // Give content area space for sidebar in this template.
+    .content-area
+        display: block
+        +media($desktop)
+            +span-columns(8 of 12)
+
+
+// Applied on pages with sidebar
+.site-content .widget-area
+    display: block
+
+    +media($desktop)
+        +span-columns(4 of 12)
+        +omega()
+
+.site-footer
+    clear: both
+    width: 100%

@@ -1,23 +1,34 @@
 /* 5.2 Menus */
 
-#nav-wrapper
-  max-width: 1160px
-  margin: 0 auto
-
 .main-navigation
-  box-shadow: 0px 0 3px rgba(0, 0, 0, 0.2)
+  box-shadow: $standardBoxShadow
   width: 100%
   clear: both
   display: block
   float: left
   text-transform: uppercase
-  background-color: #fff
+  background-color: $white
   position: relative
+  margin-bottom: 2em
 
   ul
     list-style: none
     margin: 0
     padding-left: 0
+
+    ul
+      box-shadow: $standardBoxShadow
+      float: left
+      background-color: white
+      position: absolute
+      left: -999em
+      z-index: 99999
+
+      a
+        width: 200px
+
+    li:hover > ul
+      left: auto
 
   li
     float: left
@@ -26,43 +37,26 @@
   a
     display: block
     padding: 1em 1em
-    font-size: 1.2rem
-    font-size: 12px
-    font-weight: 600
-    text-decoration: none
-    line-height: 1em
-    color: #aaa
 
-  a:hover
-    color: black
+  .current_page_item > a,
+  .current-menu-item > a
+    color: $black
+
+
+/* Navigation Typography */
+
+.main-navigation
+  a
+    font-size: 1.3rem
+    font-size: 13px
+    font-weight: 600
+    line-height: 1em
 
   ul ul
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1)
     line-height: 1.5em
-    float: left
-    background-color: white
-    position: absolute
-    left: -999em
-    z-index: 99999
-
-    ul
-      left: -999em
-      top: 0
-    a
-      width: 200px
-
-  ul
-    ul
-      \:hover! > a, a:hover!
-
-    li:hover > ul
-      left: auto
-
-  .current_page_item > a, .current-menu-item > a, .current_page_item > a:hover, .current-menu-item > a:hover
-    color: black
 
 
-/* Small menu */
+/* Small menu (modified from underscore) */
 
 .menu-toggle
   display: none
@@ -118,7 +112,6 @@ button
           float: none
         li:hover > ul
           left: auto
-      a:hover!, ul! a:hover .main-navigation ul ul ul a:hover
 
 .site-main
   .comment-navigation, .paging-navigation, .post-navigation
@@ -134,7 +127,7 @@ button
   text-align: right
   width: 50%
 
-/* Social Menu */
+/* Social Menu (adding fontawesome) */
 
 .screen-reader-text
   position: absolute

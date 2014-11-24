@@ -4,18 +4,26 @@
 /*--------------------------------------------------------------
  *10.1 Posts and pages
  *-------------------------------------------------------------*/
+.wrapper-post
+  box-shadow: $standardBoxShadow
+  background-color: $white
+  padding: 3rem
+  margin-bottom: 2em
 
-.entry-title
+.entry-title 
   margin: 0
 
-.wrapper-post
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2)
-  background-color: white
-  padding: 3rem
+.entry-meta 
+  text-transform: uppercase
+  font-size: 0.8rem
+  font-weight: 600
+
+.entry-meta span
+  padding-right: 0.5em
 
 .tag-links, .post-navigation, .paging-navigation
   padding: 0 40px
-  color: gray
+  color: $mediumGrey
 
 .sticky
   display: block
@@ -34,8 +42,9 @@
   margin: 0 0 1.5em
 
 .wrapper-single-post
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2)
-  background-color: white
+  box-shadow: $standardBoxShadow
+  background-color: $white
+
 
 /*--------------------------------------------------------------
  *10.2 Asides
@@ -50,7 +59,7 @@
 
 .comments-area
   padding: 40px
-  color: grey
+  color: $mediumGrey
 
 .comments-title
   padding-bottom: 20px
