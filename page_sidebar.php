@@ -1,6 +1,7 @@
 <?php
  /*
  Template Name: Sidebar-page
+ Made By: Ellinor Denkert 
  */
  ?>
 

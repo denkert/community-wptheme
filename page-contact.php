@@ -1,7 +1,9 @@
 <?php
  /*
  Template Name: Contact-page
+ Made By: Ellinor Denkert 
  */
+
  ?>
 
 <?php get_header(); ?>

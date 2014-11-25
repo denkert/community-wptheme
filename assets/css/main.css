@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* Made By: Ellinor Denkert */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -374,17 +375,12 @@ html {
 button, input, select, textarea, label {
   font-size: 150%; }
 
-#cntctfrm_contact_form input.text, #cntctfrm_contact_form textarea, #cntctfrm_contact_message, #cntctfrm_contact_name, #cntctfrm_contact_email, #cntctfrm_contact_subject {
-  width: 450px; }
-
-textarea#cntctfrm_contact_message {
-  border: 1px solid #ccc; }
-
 .clear:before,
 .clear:after {
   content: "";
   display: table; }
 
+/* Made By: Ellinor Denkert */
 body {
   font-size: 62.5%;
   font-family: "Source Sans Pro", sans-serif;
@@ -428,6 +424,7 @@ blockquote {
     font-size: 1.3rem;
     font-weight: 300; }
 
+/* Made By: Ellinor Denkert */
 body {
   background-color: #eee; }
 
@@ -446,6 +443,7 @@ h1, h2, h3, h4, h5, h6, p {
 * {
   box-sizing: border-box; }
 
+/* Made By: Ellinor Denkert */
 .site-branding {
   background-image: url("../Images/headerNY.jpg");
   background-position: center;
@@ -457,18 +455,13 @@ h1, h2, h3, h4, h5, h6, p {
   background-repeat: no-repeat;
   background-size: 100% auto;
   margin: 0 auto;
-  text-align: center;
   max-width: 600px;
   height: 156px;
   position: relative;
   top: 60%; }
 
-@media screen and (min-width: 1160px) {
-  .site-branding {
-    background-image: url("../Images/headerNY.jpg");
-    width: 1160px;
-    margin: 0 auto; } }
-/* 5.2 Menus */
+/* Made By: Ellinor Denkert
+ * (social menu code modified, but mostly from underscores.me) */
 .main-navigation {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
   width: 100%;
@@ -630,12 +623,7 @@ button {
   .menu-social li a[href*="linkedin.com"]::before {
     content: ""; }
 
-/*--------------------------------------------------------------
- *10.0 Content
- *-------------------------------------------------------------- */
-/*--------------------------------------------------------------
- *10.1 Posts and pages
- *------------------------------------------------------------- */
+/* Made By: Ellinor Denkert */
 .wrapper-post {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
   background-color: #fff;
@@ -644,6 +632,10 @@ button {
 
 .entry-title {
   margin: 0; }
+  .entry-title a {
+    color: #000; }
+  .entry-title a:hover {
+    color: #a3a3a3; }
 
 .entry-meta {
   text-transform: uppercase;
@@ -677,15 +669,6 @@ button {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
   background-color: #fff; }
 
-/*--------------------------------------------------------------
- *10.2 Asides
- *-------------------------------------------------------------- */
-.blog .format-aside .entry-title, .archive .format-aside .entry-title {
-  display: none; }
-
-/*--------------------------------------------------------------
- *10.3 Comments
- *-------------------------------------------------------------- */
 .comments-area {
   padding: 40px;
   color: #a3a3a3; }
@@ -700,7 +683,9 @@ button {
   display: block; }
 
 /*Theme Name: community
- *Layout: Content-Sidebar */
+ *Layout: Content-Sidebar
+ * Made By: Ellinor Denkert
+ */
 .page-sidebar .content-area,
 .page-posts .content-area {
   display: block; }
@@ -731,9 +716,7 @@ button {
   clear: both;
   width: 100%; }
 
-/*--------------------------------------------------------------
- *13.0 Footer
- *------------------------------------------------------------- */
+/* Made By: Ellinor Denkert */
 .site-footer {
   padding: 2rem;
   font-size: 0.8rem;
@@ -743,6 +726,8 @@ button {
   margin-top: 2rem;
   text-align: center; }
 
+/* Made By: Ellinor Denkert */
+/* some of the widget-classes modified from underscore.me) */
 .widget-title {
   border-bottom: 2px solid #ccc;
   margin-bottom: 20px;
