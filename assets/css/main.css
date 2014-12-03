@@ -401,7 +401,7 @@ h4 {
 
 p {
   font-weight: 400;
-  font-size: 0.9rem; }
+  font-size: 1rem; }
   p a {
     font-weight: 600; }
 
@@ -412,6 +412,10 @@ a {
 a:hover {
   color: #000; }
 
+ol, ul {
+  font-size: 1rem;
+  font-weight: 500; }
+
 b, strong {
   font-weight: bold; }
 
@@ -419,9 +423,9 @@ dfn, cite, em, i {
   font-style: italic; }
 
 blockquote {
-  padding: 0 1.5em; }
+  padding: 0 1em; }
   blockquote p {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     font-weight: 300; }
 
 /* Made By: Ellinor Denkert */
@@ -445,20 +449,21 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* Made By: Ellinor Denkert */
 .site-branding {
-  background-image: url("../Images/headerNY.jpg");
+  background-image: url("../Images/headerGroup2.jpeg");
   background-position: center;
-  height: 500px;
-  background-repeat: no-repeat; }
+  height: 600px;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); }
 
 .title-image {
-  background-image: url("../Images/Logo2.png");
+  background-image: url("../Images/Logo5.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 700px;
   height: 156px;
   position: relative;
-  top: 60%; }
+  top: 65%; }
 
 /* Made By: Ellinor Denkert
  * (social menu code modified, but mostly from underscores.me) */
@@ -744,20 +749,20 @@ button {
 .widget ul, .widget ol {
   padding-left: 2.5em;
   list-style-type: none;
-  margin: 3em 0; }
+  margin: 2em 0; }
 .widget li {
-  margin-bottom: 2em; }
+  margin-bottom: 1em; }
   .widget li a {
     font-size: 0.9rem;
     font-weight: 400;
-    text-transform: none;
-    color: #666; }
+    text-transform: none; }
   .widget li a:hover {
     color: #000; }
 
 .widget_recent_entries li:before, .widget_recent_comments li:before, .widget_archive li:before, .widget_categories li:before {
   display: block;
   float: left;
+  padding-top: 3px;
   margin-left: -1.6em;
   font-family: "fontawesome";
   font-size: 1rem;
@@ -778,6 +783,13 @@ button {
   border-bottom: solid 1px #e6e6e6; }
 
 .gce-calendar {
-  font-size: 0.9rem; }
+  font-size: 0.9rem;
+  margin-bottom: 1.6em; }
+
+.twiget-widget .tweet-wrap {
+  margin: 0;
+  padding: 0; }
+.twiget-widget p {
+  font-size: 0.8rem; }
 
 /*# sourceMappingURL=main.css.map */
