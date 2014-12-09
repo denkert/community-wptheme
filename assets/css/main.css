@@ -449,21 +449,11 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* Made By: Ellinor Denkert */
 .site-branding {
-  background-image: url("../Images/headerGroup2.jpeg");
+  background-image: url("../Images/headerKiersten.png");
   background-position: center;
   height: 600px;
   background-repeat: no-repeat;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); }
-
-.title-image {
-  background-image: url("../Images/Logo5.png");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  margin: 0 auto;
-  max-width: 700px;
-  height: 156px;
-  position: relative;
-  top: 65%; }
 
 /* Made By: Ellinor Denkert
  * (social menu code modified, but mostly from underscores.me) */
