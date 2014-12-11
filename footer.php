@@ -19,9 +19,11 @@
 		<div class="clear"></div>
 		
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'community' ) ); ?>"><?php printf( __( 'Copyright: %s', 'community' ), 'The Community 2014' ); ?></a>
+			<a href="<?php echo esc_url( __( 'http://thecommunitynyc.com', 'community' ) ); ?>"><?php printf( __( 'Copyright: %s', 'community' ), 'The Community 2014' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'community' ), 'Community', '<a href="http://underscores.me/" rel="designer">Ellinor Denkert</a>' ); ?>
+			<?php printf( __( 'Theme: %1$s by %2$s', 'community' ), 'Community', '<a href="http://ellinordenkert.com" rel="designer">Ellinor Denkert</a>' ); ?>
+			<span class="sep"> | </span>
+			Photo Credit: Kirsten Chilstrom
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
